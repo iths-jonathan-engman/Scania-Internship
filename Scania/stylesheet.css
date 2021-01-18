@@ -1,0 +1,134 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    flex: 0.2;
+    background-color: #171719;
+    height: 100vh;
+}
+
+.title {
+    border-bottom: 0.5px solid #2B2C2F;
+    height: 7vh;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.title a {
+    padding: 28px;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+.title:hover {
+    background-color: #2b2c2f;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links a {
+    color: white;
+    padding: 28px;
+    text-decoration: none;
+}
+
+.links a:hover {
+    background-color: #2b2c2f;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 0.8;
+    background-color: white;
+    height: 100vh;
+}
+
+.content-header {
+    border: 1px solid black;
+    height: 7vh;
+    background-color: #041E42;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.content-header h3 {
+    color: white;
+    padding: 28px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+.formField {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+}
+
+.content input {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 16px;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.content button {
+    background-color: #16417f;
+    color: #ffffff;
+    width: 160px;
+    height: 56px;
+    padding: 18px 62px;
+    font-size: 16px;
+    line-height: 18,75px;
+    border-radius: 4px;
+    border: none;
+    font-family: "Roboto"; 
+}
+
+.content button:hover {
+    background-color: #2058a8;
+}
+
+.content button:focus {
+    background-color: #2058a8;
+    outline: none;
+}
+
+.content button:active {
+    background-color: #0f3263;
+}
+
+.resultField {
+    display: flex;
+    flex-direction: column;
+}
+
+.resultField h2 {
+    font-weight: 400;
+}
